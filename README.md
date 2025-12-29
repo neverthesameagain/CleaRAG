@@ -212,9 +212,8 @@ python run.py
 ### Option 2: Run the Notebook (`CleaRAG.ipynb`)
 
 1. Open `CleaRAG.ipynb` in Google Colab or Jupyter
-2. Run cells top-to-bottom
+2. Run the bottom most cell.
 3. The notebook documents:
-
    * All experiments
    * Debugging steps
    * Intermediate attempts
@@ -225,13 +224,14 @@ The notebook reflects the **entire development process**, while `run.py` represe
 ---
 
 ## AI Tool Usage
+All architectural decisions, implementation logic, code and tradeoffs were made manually.
 
 ChatGPT was used selectively to:
 
 * Validate the RAG pipeline structure
 * Debug HuggingFace pipeline configuration issues
 
-All architectural decisions, implementation logic, and tradeoffs were made manually.
+
 
 ---
 
